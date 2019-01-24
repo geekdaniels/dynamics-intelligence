@@ -1,0 +1,106 @@
+/*### WEBSITE DESIGNED BY OLUFEMI OLADOTUN DANIEL OF INNOVATIONAIJA +2348145358784 - http://www.i9ja.com.ng ###*/
+
+}.navbar-brand{
+    font-size: 16px;
+}
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+.text-green{
+    color: #008751;
+}
+.green{
+    color: #008751;
+    background-color: #008751;
+    border-top: 1px solid #008751 !important;
+}
+button.green {
+    background-color: #008751;
+    color: white;
+}
+button.accent1 {
+    background-color: #e48312;
+    color: white;
+}
+.shadow {
+    text-shadow: 5px 5px 5px #000;
+}
+/*            sidebar styling*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    text-decoration: underline;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media (max-width: 768px) {
+    .sidenavmob {
+        width: 100% !important;
+    }
+    a.navbar-brand{font-size: 12px !important;}
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+}
+
+
+div.side {
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 450px;
+}
+
+
